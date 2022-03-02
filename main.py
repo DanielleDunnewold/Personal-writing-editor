@@ -43,7 +43,7 @@ def preprosess(text: list) -> list:
     return tokenised_text
 
 
-def get_freqs(text: list)->list:
+def get_freqs(text: list) -> list:
     """ gets the frequencies from a piece of text
     :param
     text (list): raw data
@@ -60,7 +60,7 @@ def get_freqs(text: list)->list:
 def main():
     nltk.download('punkt')
     text = reading_in_word("testwriting")
-    freqs=get_freqs(text)
+    freqs = get_freqs(text)
     print("word frequencies per paragraph: ")
     print(freqs)
     tokenized_text = preprosess(text)
