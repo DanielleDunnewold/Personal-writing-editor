@@ -25,7 +25,7 @@ def reading_in_word(file_name: str, paragraph: bool = True) -> list:
 
 
 def preprosess(text: list) -> list:
-    """ Cuts diffrent paragraphs up in sentences and words
+    """ Cuts different paragraphs up in sentences and words
     :param
     text(list): list of paragraphs
     :return:
@@ -55,21 +55,10 @@ def get_freqs(text: list):
         FreqDisturb = FreqDist(tokensed_text)
         print(FreqDisturb.most_common(20))
 
-
-# tokenise the work
-
-# use an lametiser
-
-# give data on the work
-
-# remove basic words said etc.
-
-# check for repetition > how to show this specifically??
-
 def main():
     print("hello world")
     nltk.download('punkt')
-    text = reading_in_word("test writing/testwriting")
+    text = reading_in_word("testwriting")
     get_freqs(text)
     tokensed_text = preprosess(text)
     print(tokensed_text)
