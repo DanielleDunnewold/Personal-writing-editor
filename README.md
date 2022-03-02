@@ -11,9 +11,9 @@ The goal of this software is to improve editing of creative writing. This would 
 ## upcoming functions
 
 - Implement function to improve frequency count and make further editing possible:
-  - a laminizer
-  - a stoplist
-  - a POS tagger
+  - A laminizer
+  - A stoplist
+  - A POS tagger
   
 - Improve output format of frequency.
 
