@@ -1,14 +1,14 @@
 # Personal-writing-editor
-Software for editing creative writing.
+Software for editing creative writing.\n
 The goal of this software is to improve editing of creative writing. This would first be specifically aimed towards my own writing, but later more functions could be build in to be helpfull for a larger group of users.
 
-## curent functions
+## Curent functions
 
 - Seperates a text in paragraphs, sentences and words or sentences and words. 
 - Determines the frequency of words in the whole text or in seperate paragraphs. 
 
 
-## upcoming functions
+## Upcoming functions
 
 - Implement function to improve frequency count and make further editing possible:
   - A laminizer
