@@ -4,18 +4,18 @@ The goal of this software is to improve editing of creative writing. This would 
 
 ## curent functions
 
--Seperates a text in paragraphs, sentences and words or sentences and words. 
--Determines the frequency of words in the whole text or in seperate paragraphs. 
+- Seperates a text in paragraphs, sentences and words or sentences and words. 
+- Determines the frequency of words in the whole text or in seperate paragraphs. 
 
 
 ## upcoming functions
 
--Implement function to improve frequency count and make further editing possible:
-  -a laminizer
-  -a stoplist
-  -a POS tagger
+- Implement function to improve frequency count and make further editing possible:
+  - a laminizer
+  - a stoplist
+  - a POS tagger
   
--Improve output format of frequency.
+- Improve output format of frequency.
 
--Marks words that are found more than once in a paragraph. 
+- Marks words that are found more than once in a paragraph. 
 
