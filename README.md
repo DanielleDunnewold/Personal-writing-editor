@@ -1,5 +1,6 @@
 # Personal-writing-editor
-Software for editing creative writing./n
+Software for editing creative writing.
+
 The goal of this software is to improve editing of creative writing. This would first be specifically aimed towards my own writing, but later more functions could be build in to be helpfull for a larger group of users.
 
 ## Curent functions
