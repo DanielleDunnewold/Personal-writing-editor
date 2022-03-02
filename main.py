@@ -43,25 +43,29 @@ def preprosess(text: list) -> list:
     return tokenised_text
 
 
-def get_freqs(text: list):
+def get_freqs(text: list)->list:
     """ gets the frequencies from a piece of text
     :param
     text (list): raw data
     :return:
-
+    freqs (list): list of lists with tuples. [information paragraph one,information paragraph two]
     """
+    freqs=[]
     for i in text:
         tokensed_text = word_tokenize(i)
         FreqDisturb = FreqDist(tokensed_text)
-        print(FreqDisturb.most_common(20))
+        freqs.append(FreqDisturb.most_common(20))
+    return freqs
 
 def main():
-    print("hello world")
     nltk.download('punkt')
     text = reading_in_word("testwriting")
-    get_freqs(text)
-    tokensed_text = preprosess(text)
-    print(tokensed_text)
+    freqs=get_freqs(text)
+    print("word frequencies per paragraph: ")
+    print(freqs)
+    tokenized_text = preprosess(text)
+    print("Tokenized text: ")
+    print(tokenized_text)
 
 
 main()
